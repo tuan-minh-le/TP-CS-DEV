@@ -13,3 +13,8 @@ def mesImpots(income) :
         income = income - 10226
         taxes = income*(11/100) 
     return int(taxes)
+
+def principal():
+    income = input ("QUel est votre salaire annuel ? : ")
+    mesImpots(income)
+    
