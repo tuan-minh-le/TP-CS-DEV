@@ -5,6 +5,7 @@ def arraymulti(MatA,MatB) : #Multiplication matrices carrees de taille n
         MatC.append([])
         for j in range(len(MatB[i])):
              MatC[i].append(0)
+             
     for i in range (len(MatA)):
          for k in range(len(MatB[i])):
             for j in range (len(MatA[i])) : 
