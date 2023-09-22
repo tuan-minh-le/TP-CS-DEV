@@ -1,4 +1,4 @@
-def arraymulti(MatA,MatB) :
+def arraymulti(MatA,MatB) : #Multiplication matrices carrees de taille n 
     MatC = []
     result = 0
     for i in range (len(MatA)):
